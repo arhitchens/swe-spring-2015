@@ -8,7 +8,7 @@ int arhyr8Sentence1()
   return 1;
 }
 
-int arhyr8Sentence_FINAL()
+int arhyr8Sentence2()
 {
   printf("\nSecond Sentence here\n");
   return 1;
