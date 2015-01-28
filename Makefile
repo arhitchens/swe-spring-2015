@@ -51,7 +51,7 @@ clean:
 # And how do we make it?
 # -----------------------------------------------
 
-story: story.o bpbkt7.o bmwr84.o dse2pd.o jpvc4.o amd2b7.o dc4g2.o kllxvd.o qltf8.o tnrn9b.o bar5z6.o jebd4f.o pld9bc.o iphvg5.o lmwv2c.o racn88.o zzff8.o  jmlmdf.o xdb57.o ldbnr4.o xltz6.o kjmd54.o
+story: story.o bpbkt7.o bmwr84.o dse2pd.o jpvc4.o amd2b7.o dc4g2.o kllxvd.o qltf8.o tnrn9b.o bar5z6.o jebd4f.o pld9bc.o iphvg5.o lmwv2c.o racn88.o zzff8.o  jmlmdf.o xdb57.o ldbnr4.o xltz6.o kjmd54.o arhyr8.o
 	$(CC) -o story $^
 
 #pawprint.o - where is your .c derived object file - where is your file
@@ -112,4 +112,5 @@ xltz6.o: sentences/xltz6.c
 	$(CC) -c $<
 //aap455.o: sentences/aap455.c
 	//$(CC) -c $<
-
+arhyr8.o: sentences/arhyr8.c
+	$(CC) -c $<
